@@ -1,0 +1,164 @@
+
+html{
+    background: #657ddc60;
+}
+header{
+  background-image: url("../images/flywheel.jpg"); 
+  background-color: rgb(205, 166, 166);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding:30px;
+  text-align: center;
+  border-top-left-radius:20px;
+   border-top-right-radius:20px;
+  font-family:  Impact, sans-serif, monospace,Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+  padding: 10px;
+	margin: 1%;
+}
+nav a{
+    font-weight: bold;
+    font-size: 20px;
+    background: rgb(93, 103, 238);
+    display:inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    height: 20px;
+    margin: 2%;
+    border-radius:3px;
+    text-decoration:none;
+    padding:2%;
+   color: rgb(21, 27, 41);
+
+   
+	-webkit-border-radius: 3;
+	-moz-border-radius: 3;
+	-o-border-radius: 3;
+}
+.active{
+    background-color: #FFFFFF;
+}
+
+
+nav a:link{
+  background: #354256a2;
+  color: #323351;
+  }  
+nav  a:hover{
+  background: #0c2674b8;
+  color: #b2bbf5;
+  transform:scale(1.2,1.2);
+  }
+  
+nav a:active {
+      background: #b8cae750;
+      color: #2b2d6562;
+      }  
+
+h1{
+font-style:italic;
+  font-size:55px;
+  text-align:center;
+  text-transform: uppercase;
+  color: rgb(220, 179, 125);
+  font-size: 70px;
+  font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, monospace,Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+  text-transform: uppercase;
+  color: rgb(101, 37, 117);
+  font-family:  monospace,Georgia, 'Times New Roman', Times, serif;
+}
+section{
+display: inline-block;
+background-color: #8b8b8b;
+}
+a{
+background-color: #959393;
+color: rgb(105, 50, 50);
+}
+
+.left{
+position: absolute;
+  width: 12%;
+   height: 420px; 
+   padding: 1% 0;
+   float: left; 
+   background: rgb(21, 42, 105);
+   border-bottom-left-radius:12px;
+   border-bottom-right-radius:12px;
+   align-items: center;	
+}
+.right{
+  margin-left: 13%;
+   height:420px;
+    background: #657ddc07;
+    text-align: center;
+    width: 1290px;
+    }
+
+img {
+  display: block; 
+  width: 120px;
+  height: 120px;
+  margin: 0 10.5%;
+    padding: 5px;
+  border: 2px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #dadbf3;
+}
+table, tr, td{
+  text-align: center; 
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+width: 90%;
+
+border-collapse: collapse;
+  
+}
+ul {
+    list-style-type: circle;
+    
+}
+td, th{
+    border: 1px solid #212837;
+  padding: 8px;
+}
+td{
+    font-family: 'Times New Roman', Times, serif;
+  color: #0e132b;
+}
+
+tr{
+  font-family:  Impact, 'Times New Roman', Times, serif;
+  color: #0c0f18;
+}
+th{
+    font-weight: bold;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: rgb(18, 23, 55);
+        color: white;
+    
+}
+table tr td:nth-child(1) {
+    font-weight: normal; 
+    text-align: left;
+  }
+  table th:first-child {
+    
+    text-align: left;
+  }
+  table tr:hover td:nth-child(1) {
+    font-weight: bold; 
+  }
+tr:nth-child(even){background-color: rgb(215, 216, 240);}
+
+tr:hover {background-color: #f3e7e7;}
+
+
